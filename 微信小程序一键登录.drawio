@@ -1,9 +1,73 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.0">
   <diagram name="第 1 页" id="K5xSRAgsA0N8dOzn4sKq">
-    <mxGraphModel>
+    <mxGraphModel dx="1166" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CJYnflk7-Wx3-SGJrNSr-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CJYnflk7-Wx3-SGJrNSr-1" target="CJYnflk7-Wx3-SGJrNSr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJYnflk7-Wx3-SGJrNSr-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="294" y="30" width="106" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CJYnflk7-Wx3-SGJrNSr-2" value="结束" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="294" y="690" width="106" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CJYnflk7-Wx3-SGJrNSr-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CJYnflk7-Wx3-SGJrNSr-3" target="CJYnflk7-Wx3-SGJrNSr-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJYnflk7-Wx3-SGJrNSr-3" value="小程序前端&lt;div&gt;wx.login()获取code&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="287" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CJYnflk7-Wx3-SGJrNSr-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CJYnflk7-Wx3-SGJrNSr-5" target="CJYnflk7-Wx3-SGJrNSr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJYnflk7-Wx3-SGJrNSr-5" value="后端根据code和三方应用的类型，获取第三方用户信息，并保存到数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="287" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CJYnflk7-Wx3-SGJrNSr-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CJYnflk7-Wx3-SGJrNSr-6" target="CJYnflk7-Wx3-SGJrNSr-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJYnflk7-Wx3-SGJrNSr-21" value="已绑定" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CJYnflk7-Wx3-SGJrNSr-11">
+          <mxGeometry x="-0.2133" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CJYnflk7-Wx3-SGJrNSr-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CJYnflk7-Wx3-SGJrNSr-6" target="CJYnflk7-Wx3-SGJrNSr-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJYnflk7-Wx3-SGJrNSr-20" value="没绑定" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CJYnflk7-Wx3-SGJrNSr-17">
+          <mxGeometry x="-0.2082" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CJYnflk7-Wx3-SGJrNSr-6" value="此用户绑定了学生信息" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="267.25" y="320" width="159.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CJYnflk7-Wx3-SGJrNSr-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CJYnflk7-Wx3-SGJrNSr-8" target="CJYnflk7-Wx3-SGJrNSr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJYnflk7-Wx3-SGJrNSr-8" value="生成访问、刷新令牌；插入登录日志" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="287" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CJYnflk7-Wx3-SGJrNSr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CJYnflk7-Wx3-SGJrNSr-9" target="CJYnflk7-Wx3-SGJrNSr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJYnflk7-Wx3-SGJrNSr-9" value="前端获取用户信息，登录成功" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="287" y="584.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CJYnflk7-Wx3-SGJrNSr-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CJYnflk7-Wx3-SGJrNSr-15" target="CJYnflk7-Wx3-SGJrNSr-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJYnflk7-Wx3-SGJrNSr-15" value="小程序携带code跳转到账号密码登录页面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CJYnflk7-Wx3-SGJrNSr-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CJYnflk7-Wx3-SGJrNSr-16" target="CJYnflk7-Wx3-SGJrNSr-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJYnflk7-Wx3-SGJrNSr-16" value="输入用户密码完成绑定" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
