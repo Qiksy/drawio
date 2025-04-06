@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.8">
   <diagram name="第 1 页" id="U_qr-SFguHVyFV1FghOU">
-    <mxGraphModel>
+    <mxGraphModel dx="1657" dy="1107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_26ZjIAqNj8J2nXQSt4l-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_26ZjIAqNj8J2nXQSt4l-2" target="_26ZjIAqNj8J2nXQSt4l-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_26ZjIAqNj8J2nXQSt4l-2" value="开始" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_26ZjIAqNj8J2nXQSt4l-3" value="结束" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="850" y="360" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_26ZjIAqNj8J2nXQSt4l-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_26ZjIAqNj8J2nXQSt4l-4" target="_26ZjIAqNj8J2nXQSt4l-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_26ZjIAqNj8J2nXQSt4l-4" value="点击个人资料-解绑微信" style="whiteSpace=wrap;html=1;rounded=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="192" y="350" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_26ZjIAqNj8J2nXQSt4l-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_26ZjIAqNj8J2nXQSt4l-6" target="_26ZjIAqNj8J2nXQSt4l-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_26ZjIAqNj8J2nXQSt4l-6" value="点击确定" style="whiteSpace=wrap;html=1;rounded=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="359" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_26ZjIAqNj8J2nXQSt4l-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_26ZjIAqNj8J2nXQSt4l-8" target="_26ZjIAqNj8J2nXQSt4l-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_26ZjIAqNj8J2nXQSt4l-8" value="后端删除绑定的用户信息" style="whiteSpace=wrap;html=1;rounded=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="521" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_26ZjIAqNj8J2nXQSt4l-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_26ZjIAqNj8J2nXQSt4l-10" target="_26ZjIAqNj8J2nXQSt4l-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_26ZjIAqNj8J2nXQSt4l-10" value="前端清除登录信息" style="whiteSpace=wrap;html=1;rounded=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="683" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
